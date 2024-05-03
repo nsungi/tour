@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exclusive Officer</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+ <!-- google font link -->
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+ <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"  rel="stylesheet"  />
+
+    <!-- bootstrap icon cdn link  -->
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+ 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- custom css file main -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+     <!-- custom css file  header and footer -->
+    <link rel="stylesheet" href="assets/css/style2.css" />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           
+        }
+
+        h2 {
+            color: green;
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .board-members, .management-team-members, .officers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .member, .officer {
+            flex-basis: 45%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .member img, .officer img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+
+        .member h3, .officer h3 {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .member p, .officer p {
+            color: #666;
+        }
+
+    </style>
+  </head>
+  <body>
+  
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      
+     <!--  <h1 class="logo"><a href="index.html">prototype 1</a></h1> -->
+       <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="" class="img-fluid">version1</a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about.html">About Us</a></li>
+          <li><a class="nav-link scrollto" href="carieers.html">Carieers</a></li>
+          <li><a class="nav-link scrollto " href="news.html">News</a></li>
+          <li><a class="nav-link scrollto" href="wildlife.html">Wildlife</a></li>
+          <li><a href="Conservation.html">Conservation</a></li>
+          <li class="dropdown"><a href="#"><span>Officers</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="exclusive_officers.html">Exclusive officers</a></li>
+              <li class="dropdown"><a href="#"><span>Galarry</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="photos.html">Photos</a></li>
+                  <li><a href="videos.html">Videos</a></li>
+                  
+                </ul>
+              </li>
+              <li><a href="project.html">Projects</a></li>
+              
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+
+
+<!-- Main Content -->
+<main class="pt-5 pb-4">
+    <section id="organizational-chart" class="pt-5">
+ 
+        <h2>Organizational Chart Structure</h2>
+        <p>An organizational chart visually represents the hierarchical structure of an organization, including various departments, teams, and positions.</p>
+     
+        <p>The organizational structure defines how activities are directed in the organization and establishes the formal relationships among members.</p>
+  
+        <img src="assets/images/organization_structure.jpg" alt="Organization Structure" class="responsive-img">
+    </section>
+
+    <section id="board-of-directors">
+        <h2>Board of Directors</h2>
+        <!-- Add information about the board of directors here -->
+        <p>The board of directors is a group of individuals elected to represent shareholders' interests and make decisions on major company issues.</p>
+        <!-- Add images or bios of the board members -->
+        <div class="board-members">
+            <div class="member">
+                <img src="assets/images/board.jpg" alt="Board Member 1">
+                <h3>John Doe</h3>
+                <p>Chairman</p>
+            </div>
+            <div class="member">
+                <img src="assets/images/board2.jpg" alt="Board Member 2">
+                <h3>Jane Smith</h3>
+                <p>Vice Chairman</p>
+            </div>
+            <!-- Add more board members -->
+        </div>
+    </section>
+
+    <section id="management-team">
+        <h2>Management Team</h2>
+        <!-- Add information about the management team here -->
+        <p>The management team consists of top executives responsible for leading and managing the organization's operations and strategic direction.</p>
+        <!-- Add images or bios of the management team -->
+        <div class="management-team-members">
+            <div class="member">
+                <img src="assets/images/manager1.jpg" alt="Manager 1">
+                <h3>David Johnson</h3>
+                <p>CEO</p>
+            </div>
+            <div class="member">
+                <img src="assets/images/manager2.jpg" alt="Manager 2">
+                <h3>Emily Williams</h3>
+                <p>COO</p>
+            </div>
+            <!-- Add more management team members -->
+        </div>
+    </section>
+
+    <section id="officers">
+        <h2>Officers</h2>
+        <!-- Add information about the officers here -->
+        <p>Officers are key executives responsible for specific functions within the organization, such as finance, marketing, and operations.</p>
+        <!-- Add images or bios of the officers -->
+        <div class="officers">
+            <div class="officer">
+                <img src="assets/images/officer1.jpg" alt="Officer 1">
+                <h3>Michael Brown</h3>
+                <p>Chief Financial Officer</p>
+            </div>
+            <div class="officer">
+                <img src="assets/images/officer2.jpg" alt="Officer 2">
+                <h3>Sarah Lee</h3>
+                <p>Chief Marketing Officer</p>
+            </div>
+            <!-- Add more officers -->
+        </div>
+    </section>
+</main>
+
+
+
+<!-- testimonial section starts  -->
+<section class="testimonial mt-5 pt-5 pb-3" id="testimonial">
+    <div class="row justify-content-evenly">
+      <div class="col-md-4 col-10" data-aos="slide-right">
+        <img src="assets/images/tastimonials-img.png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+        <div class="heading">
+          <small>Latest</small>
+          <h3> Clients Feedback</h3>
+          <!-- here we will use carousel element from bootstrap -->
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel">
+          
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                        "Insightful event on technology in sustainable tourism. Well-organized and informative.
+                         Looking forward to future events."
+                    </p>
+                    <h4>Magessa</h4>
+                    <small class="fs-6 text-muted">CEO of Company</small>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                        mpressive professionalism and attention to detail ...
+                        Impressed by your management team's expertise. Valuable insights into conservation efforts and technology's role.
+                    </p>
+                    <h4>Rodriguez</h4>
+                    <small class="fs-6 text-muted">Engineer</small>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                        "Your team's dedication to sustainable tourism is commendable. Innovative solutions and comprehensive plans."
+                    </p>
+                    <h4> Maria </h4>
+                    <small class="fs-6 text-muted">Financial Manager</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="nextprev-btn rounded-pill prev-btn"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <i class="bi bi-arrow-left-circle-fill prev"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="nextprev-btn rounded-pill next-btn"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <i class="bi bi-arrow-right-circle-fill next"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial ends here -->
+
+
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" style="animation: slideInUp 2s ease-out;">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="terms.html">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="privacy.html">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="news.html">News</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="carieers.html">Carieers</a></li> 
+              <li><i class="bx bx-chevron-right"></i> <a href="photos.html">Gallary</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="exclusive_officers.html">Exclusive officers</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Essantials</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.html">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="conservation.html">Conservation</a></li> 
+              <li><i class="bx bx-chevron-right"></i> <a href="wildlife.html">Wildlife</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="project.html">Project</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+    
+        <div class="copyright">
+            &copy; Copyright <strong><span id="year"></span></strong> <span>developer</span>. All Rights Reserved
+        </div>     
+        <div class="credits">        
+            Designed by <a href="#">developer</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://twitter.com" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://facebook.com" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://google-plus.com" target="_blank" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://linkedin.com" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+      <!-- bootstrap javascript cdn link  -->
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous" ></script>
+   
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="assets/js/script.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
